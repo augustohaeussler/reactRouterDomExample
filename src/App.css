@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(194, 194, 194);
+}
+
+ 
+
+a {
+  list-style: none;
+  margin: 10px;
+  border: 1px solid rgb(104, 104, 104);
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+a:hover {
+  background-color: rgb(104, 104, 104);
+}
+
+.ulNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .is-active {
+  background-color: rgb(104, 104, 104);
+}
